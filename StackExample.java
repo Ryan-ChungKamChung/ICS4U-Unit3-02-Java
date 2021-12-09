@@ -29,7 +29,6 @@ final class StackExample {
         final MrCoxallStack aStack = new MrCoxallStack();
         final int number1 = 7;
         final int number2 = 42;
-        final String newLine = "\n";
 
         System.out.println("Pushing #1...");
         aStack.push(number1);
