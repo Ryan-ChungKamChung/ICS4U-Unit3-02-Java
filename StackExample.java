@@ -36,13 +36,11 @@ final class StackExample {
         System.out.println("");
 
         System.out.println("Pushing #2...");
-        aStack.push(number1);
         aStack.push(number2);
         aStack.showStack();
         System.out.println("");
 
         System.out.println("Pulling #1...");
-        aStack.push(number1);
         aStack.pull();
         aStack.showStack();
         System.out.println("");
