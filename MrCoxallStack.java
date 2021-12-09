@@ -25,7 +25,11 @@ public class MrCoxallStack {
 
     /** Removes the top element in the stack. */
     public void pull() {
+        final int removedElement = stackAsArray[0];
+
         stackAsArray.remove(0);
+
+        return removedElement;
     }
 
     /** Prints out the stack. */
