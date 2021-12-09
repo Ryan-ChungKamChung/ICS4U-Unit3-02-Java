@@ -23,9 +23,13 @@ public class MrCoxallStack {
         stackAsArray.add(0, pushNumber);
     }
 
-    /** Removes the top element in the stack. */
-    public void pull() {
-        final int removedElement = stackAsArray[0];
+    /**
+     * Removes the top element in the stack.
+     *
+     * @return the removed element
+     * */
+    public int pull() {
+        final int removedElement = stackAsArray.get(0);
 
         stackAsArray.remove(0);
 
