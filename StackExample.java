@@ -29,23 +29,22 @@ final class StackExample {
         final MrCoxallStack aStack = new MrCoxallStack();
         final int number1 = 7;
         final int number2 = 42;
+        final int removedElement;
 
         System.out.println("Pushing #1...");
         aStack.push(number1);
         aStack.showStack();
-        System.out.println("");
 
-        System.out.println("Pushing #2...");
+        System.out.println("\nPushing #2...");
         aStack.push(number2);
         aStack.showStack();
-        System.out.println("");
 
-        System.out.println("Pulling #1...");
-        aStack.pull();
+        System.out.println("\nPulling...");
+        removedElement = aStack.pull();
+        System.out.println("Removed: " + removedElement);
         aStack.showStack();
-        System.out.println("");
 
-        System.out.println("Done.");
+        System.out.println("\nDone.");
     }
 }
 
