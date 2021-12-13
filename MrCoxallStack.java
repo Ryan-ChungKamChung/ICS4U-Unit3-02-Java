@@ -28,7 +28,7 @@ public class MrCoxallStack {
      *
      * @return the removed element
      * */
-    public int pull() {
+    public int pop() {
         final int removedElement = stackAsArray.get(0);
 
         stackAsArray.remove(0);

@@ -39,8 +39,8 @@ final class StackExample {
         aStack.push(number2);
         aStack.showStack();
 
-        System.out.println("\nPulling...");
-        removedElement = aStack.pull();
+        System.out.println("\nPopping...");
+        removedElement = aStack.pop();
         System.out.println("Removed: " + removedElement);
         aStack.showStack();
 
